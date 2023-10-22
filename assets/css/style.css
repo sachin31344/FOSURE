@@ -1327,3 +1327,55 @@ footer .logo { margin-bottom: 30px; }
   margin-left: 23px;
   margin-right: 20px;
 }
+
+
+/* media query for smaller screen */
+/* Additional media queries for even smaller screens if necessary */
+@media (max-width: 480px) {
+  .parent {
+    width: 100%; /* Take up the full width of the viewport */
+    height: auto; /* Adjust height as needed for content */
+  }
+
+  .card {
+    border-radius: 10px; /* Further reduce border-radius for smaller screens */
+    /* Adjust other styles as necessary for very small screens */
+  }
+
+  .content {
+    padding: 60px 30px 0; /* Reduce padding for content */
+  }
+
+  .content .title {
+    font-size: 18px; /* Adjust font size for titles */
+  }
+
+  .content .text {
+    font-size: 14px; /* Adjust font size for text */
+    margin-top: 15px; /* Reduce top margin */
+  }
+
+  .bottom .social-buttons-container .social-button {
+    width: 32px; /* Adjust the size of social buttons */
+  }
+
+  .bottom .view-more .view-more-button {
+    font-size: 10px; /* Adjust font size for the view more button */
+  }
+}
+
+
+
+/* media qury for all screen */
+@media (max-width: 768px) {
+  .parent {
+    width: 100%;
+    height: auto;
+    perspective: none;
+  }
+
+  .card {
+    border-radius: 20px;
+    /* Adjust other styles as needed for smaller screens */
+  }
+}
