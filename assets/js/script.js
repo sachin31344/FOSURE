@@ -49,3 +49,11 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 } 
+
+
+// -------------------------------google form----------------------
+
+function openGoogleForm() {
+  var formURL = "https://docs.google.com/forms/d/e/1FAIpQLSf8X1cEupKzrFaUOzorTk-6_3R1fNdjK6-nE1KV_UckHhmbfQ/viewform?embedded=true";
+  window.open(formURL, '_blank');
+}
